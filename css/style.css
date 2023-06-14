@@ -5,8 +5,9 @@ body {
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 36px;
+  color: red;
 }
 
 h2 {
@@ -29,7 +30,19 @@ select {
   box-shadow: 10px 10px 10px rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
 }
+.clearfix {
+  overflow: auto;
+}
 
+.wallpaper-project {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/563/original/rainbow.png?1686707534");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  width: 50%;
+  padding: 5px;
+  margin: 5px auto;
+}
 .city {
   display: flex;
   margin: 20px 0;
@@ -60,4 +73,5 @@ footer {
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
+  margin-top: 20px;
 }
